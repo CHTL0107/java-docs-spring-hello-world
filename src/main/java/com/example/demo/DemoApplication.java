@@ -15,6 +15,6 @@ public class DemoApplication {
 
 	@RequestMapping("/")
 	String sayHello() {
-		return "Hello to Chayma 's Empire from Azure! <br> <img src='https://imgur.com/hx8JTm3'>";
+		return "Hello to Chayma 's Empire from Azure! <br> <img src='https://i.postimg.cc/zDTr8KDk/311297997-3286446178299887-7084848597804059578-n.jpg'>";
 	}
 }
