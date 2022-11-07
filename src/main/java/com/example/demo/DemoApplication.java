@@ -32,17 +32,13 @@ public class DemoApplication {
 
     public ImagePanel() {
        try {                
-          image = ImageIO.read(new File(rose,"https://img.freepik.com/photos-gratuite/rose-rose-rose-petale_1339-1165.jpg?w=900&t=st=1667853926~exp=1667854526~hmac=ede553eb261fdd5530e6c3bff23177a151ced6242aec3306482999e4833f13ea"));
+          image = ImageIO.read(new File("https://img.freepik.com/photos-gratuite/rose-rose-rose-petale_1339-1165.jpg?w=900&t=st=1667853926~exp=1667854526~hmac=ede553eb261fdd5530e6c3bff23177a151ced6242aec3306482999e4833f13ea"));
        } catch (IOException ex) {
             // handle exception...
        }
     }
 
-    @Override
-    protected void paintComponent(Graphics g) {
-        super.paintComponent(g);
-        g.drawImage(image, 0, 0, this); // see javadoc for more info on the parameters            
-    }
+    
 
-}
+	}
 }
